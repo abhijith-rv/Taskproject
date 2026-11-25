@@ -22,8 +22,15 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('bmi/',views.BMIview.as_view()),
     path('age/',views.AgeView.as_view()),
-    path('per/',views.PersentageView.as_view()),
+    path('per/',views.PercentageView.as_view()),
     path('simple-intrest/',views.IntrestView.as_view()),
-    path('electicity-bill/',views.ElectricityBill.as_view())
-
+    path('electicity-bill/',views.ElectricityBill.as_view()),
+    path('discount/',views.DiscountView.as_view()),
+    path('salary/',views.SalaryView.as_view()),
+    path('profit/',views.ProfitView.as_view()),
+    path('time/',views.TimeView.as_view()),
+    path('fuel/',views.FuelCostView.as_view()),
+    path('product-profit/',views.ProdectProfit.as_view()),
+    path('work-salary/',views.WorkSalary.as_view()),
+    path('age-details/',views.AgeCalculate.as_view())
 ]
