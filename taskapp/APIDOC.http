@@ -1,0 +1,46 @@
+###
+POST http://127.0.0.1:8000/bmi/
+Content-Type: application/json
+
+{
+    "height":160,
+    "weight":60
+}
+
+###
+POST http://127.0.0.1:8000/age/
+Content-Type: application/json
+
+{
+    "birth_year":2005,
+    "current_year":2026
+}
+
+###
+POST http://127.0.0.1:8000/per/
+Content-Type: application/json
+
+{
+    "obtained_mark":450,
+    "total_mark":500
+}
+
+###
+POST http://127.0.0.1:8000/simple-intrest/
+Content-Type: application/json
+
+{
+    "principal": 10000,
+    "rate": 5,
+    "time": 2
+}
+
+
+###
+POST http://127.0.0.1:8000/electicity-bill/
+Content-Type: application/json
+
+{
+    "unit":150,
+    "rate":6
+}
